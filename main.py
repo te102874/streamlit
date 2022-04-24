@@ -1,11 +1,5 @@
-from re import L
-from regex import R
 import streamlit as st
-import numpy as np
-import pandas as pd
 import time
-from PIL import Image
-
 
 st.title('Streamlit 超入門')
 st.write('プレグレスバーの表示')
@@ -26,13 +20,3 @@ if button:
 
 expander = st.expander('問い合わせ')
 expander.write('問い合わせ内容を書く')
-
-# text = st.text_input('あなたの趣味をおしえてください。')
-# condition = st.slider('あなたの今の調子は？',0,100, 50)
-# 'あなたの趣味：',text,'です。'
-# 'コンディション：',condition
-
-# if st.checkbox('Show Image'):
-#     img = Image.open('2022-04-16 13.21.35.jpg')
-#     st.image(img, caption='Rama', use_column_width=True)
-
